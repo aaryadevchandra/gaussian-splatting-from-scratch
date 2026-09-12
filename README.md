@@ -58,23 +58,6 @@ from angles never seen during training:
 
 ![3dgs](readme_files/3dgs.gif)
 
-### Sparse reconstruction
-
-The SfM point cloud the Gaussians are initialized from:
-
-![point cloud](readme_files/point_cloud.gif)
-
-### Render vs ground truth
-
-![render comparison](readme_files/render_vs_gt.png)
-
-### 2D sanity check
-
-Before touching real geometry, the rasterizer was validated by fitting Gaussians
-to a single 2D image. This isolates the compositing and gradient path from any
-camera or pose error — if this converges, the renderer works.
-
-![2d test](readme_files/2d_test.png)
 
 ---
 
