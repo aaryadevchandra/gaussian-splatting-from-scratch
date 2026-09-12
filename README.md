@@ -58,6 +58,15 @@ from angles never seen during training:
 
 ![3dgs](readme_files/3dgs.gif)
 
+### Sparse reconstruction
+
+The SfM point cloud the Gaussians are initialized from:
+
+![point cloud](readme_files/point_cloud.gif)
+
+### Ground Truth Images For Reference
+
+![render comparison](readme_files/gt.png)
 
 ---
 
